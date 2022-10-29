@@ -7,6 +7,6 @@ body
 {
   @apply h-full;
   @apply bg-background;
-  @apply font-opensans;
+  @apply font-poppins;
   @apply text-white;
 }
