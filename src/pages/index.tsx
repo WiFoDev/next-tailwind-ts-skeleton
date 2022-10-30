@@ -5,7 +5,7 @@ import {Layout} from "@/Layout";
 const Home: NextPage = () => {
   return (
     <Layout>
-      <h1>Hello World</h1>
+      <section>Welcome</section>
     </Layout>
   );
 };

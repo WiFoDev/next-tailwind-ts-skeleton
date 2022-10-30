@@ -19,7 +19,9 @@ export const Layout = ({children}: LayoutProps) => {
           <ul className="text-lg">Navigation List For The Page</ul>
         </nav>
       </header>
-      {children}
+      <main className="relative flex flex-col items-center justify-center w-full h-full">
+        {children}
+      </main>
     </>
   );
 };
