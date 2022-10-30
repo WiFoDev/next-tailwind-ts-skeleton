@@ -10,3 +10,11 @@ body
   @apply font-poppins;
   @apply text-white;
 }
+
+h1 {
+  @apply text-headline;
+}
+
+p { 
+  @apply text-parragraf;
+}
