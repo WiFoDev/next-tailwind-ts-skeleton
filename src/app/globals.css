@@ -3,18 +3,16 @@
 @tailwind utilities;
 
 html,
-body
-{
-  @apply h-full;
+body {
   @apply bg-background;
-  @apply font-poppins;
   @apply text-white;
+  @apply flex flex-col min-h-screen;
 }
 
 h1 {
   @apply text-headline;
 }
 
-p { 
+p {
   @apply text-parragraf;
 }
